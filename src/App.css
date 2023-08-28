@@ -1,0 +1,43 @@
+#goku{
+  height: 100vh;
+  transition: all 500ms linear ;
+}
+.Subcontainer{
+  display: flex;
+  align-items: center;
+}
+.titulo{
+  text-align: center;
+  font-size: 70px;
+}
+#presidente{
+  color: #ea8309;
+}
+.texto{
+  font-size: 5vh;
+  height: 10vh;
+}
+#numeros{
+  color: rgb(36, 255, 36);
+}
+.buttonvotar{
+  color: aliceblue;
+  background-color: #ea8309 ;
+  border: none;
+  height: 7vh;
+  width: 40vh;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-shadow: 3px 3px 50px 1px rgb(255, 255, 255) ;
+  transition: all 500ms linear;
+}
+.buttonvotar:hover{
+  background-color: #ffffff;
+  color: #ea8309;
+}
+@media (max-width: 768px) {
+  .Subcontainer{
+    flex-direction: column;
+  }
+}
